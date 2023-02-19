@@ -8,17 +8,18 @@
     <title>KOR Rep Counter</title>
 </head>
 <body>
+    
     <header class="header">
         <img src="logos/KOR somente_Red.svg" alt="KOR CrossFit logo" class="logo">
         <h1 class="wod-name">OPEN 23.1</h1>
     </header>
     <section class="WOD">
         <div class="WOD__selector">
-            <h2 class="WOD__type WOD__type_RX">RX</h2>
-            <h2 class="WOD__type WOD__type_SCALED">SCALED</h2>
+            <h2><a href="#RX" class="WOD__type WOD__type_RX">RX</a></h2>
+            <h2><a href="#SCALED" class="WOD__type WOD__type_SCALED">SCALED</a></h2>
         </div>
         <div class="WOD__wrapper">
-            <div class="WOD__description WOD__description_RX">
+            <div id="RX" class="WOD__description WOD__description_RX">
                 <p class="WOD__line">AMRAP in 14 minutes</p>
                 <p class="WOD__line">60 calorie Row</p>
                 <p class="WOD__line">50 Toes-to-Bars</p>
@@ -26,7 +27,7 @@
                 <p class="WOD__line">30 Cleans (135/95 lb)</p>
                 <p class="WOD__line">20 Muscle-Ups</p>
             </div>
-            <div class="WOD__description WOD__description_SCALED">
+            <div id="SCALED" class="WOD__description WOD__description_SCALED">
                 <p class="WOD__line">AMRAP in 14 minutes</p>
                 <p class="WOD__line">60 calorie Row</p>
                 <p class="WOD__line">50 Knees-to-chest</p>
@@ -39,18 +40,19 @@
     </section>
     <section class="counter">
         <div class="counter__reps-wrapper">
-            <h3 class="counter__reps">150</h3>
+            <h3 id="total-reps" class="counter__reps">0</h3>
             <h4 class="counter__subtitle">REPS</h4>
         </div>
         <div class="btn-wrapper">
-            <button class="btn">-1</button>
-            <button class="btn">+1</button>
-            <button class="btn">-5</button>
-            <button class="btn">+5</button>
-            <button class="btn">-10</button>
-            <button class="btn">+10</button>
+            <button id="one-less" onclick="oneLess()" class="btn">-1</button>
+            <button id="one-more" onclick="oneMore()" class="btn">+1</button>
+            <button id="five-less" onclick="fiveLess()" class="btn">-5</button>
+            <button id="five-more" onclick="fiveMore()" class="btn">+5</button>
+            <button id="ten-less" onclick="tenLess()" class="btn">-10</button>
+            <button id="ten-more" onclick="tenMore()" class="btn">+10</button>
         </div>
-        <button class="reset">RESET</button>
+        <button onclick="reset()" class="reset">RESET</button>
     </section>
 </body>
+<script src="js/index.js"></script>
 </html>
