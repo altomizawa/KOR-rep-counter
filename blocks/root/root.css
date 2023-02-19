@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Varta', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+
+h2{
+    font-family: 'Varta', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 2.3rem;
+}
+
+p{
+    font-family: 'Varta', sans-serif;
+    font-weight: 200;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+h3{
+    font-family: 'Varta', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 6rem;
+    color: #B11116;
+}
+
+h4{
+    font-family: 'Varta', sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+
+button{
+    font-family: 'Varta', sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    width: 23vw;
+    height: 12vw;
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,0.22);
+    background-color: transparent;
+}
