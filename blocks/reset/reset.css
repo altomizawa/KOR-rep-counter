@@ -1,0 +1,10 @@
+.reset{
+    margin-inline: auto;
+    border: none;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.3rem;
+    box-shadow: 2px 2px 4px rgba(0, 0 , 0, 0.4);
+}
