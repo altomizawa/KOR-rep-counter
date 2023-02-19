@@ -1,0 +1,6 @@
+.btn-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    row-gap: 1rem;
+    column-gap: 2.5rem;
+}

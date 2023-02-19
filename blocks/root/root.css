@@ -28,7 +28,7 @@ p{
 h3{
     font-family: 'Varta', sans-serif;
     font-weight: 700;
-    line-height: 1;
+    line-height: 0.5;
     font-size: 6rem;
     color: #B11116;
 }
@@ -50,4 +50,5 @@ button{
     border-radius: 12px;
     border: 1px solid rgba(0,0,0,0.22);
     background-color: transparent;
+    color: #787878;
 }
