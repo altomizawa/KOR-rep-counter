@@ -2,3 +2,29 @@
 @import url(/vendor/normalize.css);
 @import url(/blocks/root/root.css);
 
+/* ------------------HEADER-------------------- */
+@import url(/blocks/header/header.css);
+@import url(/blocks/logo/logo.css);
+@import url(/blocks/wod-name/wod-name.css);
+
+/* ------------------WOD SECTION-------------------- */
+@import url(/blocks/WOD/WOD.css);
+@import url(/blocks/WOD/__description/WOD__description.css);
+@import url(/blocks/WOD/__description/_RX/WOD__description_RX.css);
+@import url(/blocks/WOD/__description/_SCALED/WOD__description_SCALED.css);
+@import url(/blocks/WOD/__line/WOD__line.css);
+@import url(/blocks/WOD/__selector/WOD__selector.css);
+@import url(/blocks/WOD/__type/WOD__type.css);
+@import url(/blocks/WOD/__wrapper/WOD__wrapper.css);
+@import url(/blocks/line/line.css);
+
+
+/* ------------------COUNTER SECTION-------------------- */
+@import url(/blocks/counter/counter.css);
+@import url(/blocks/counter/__reps-wrapper/counter__reps-wrapper.css);
+@import url(/blocks/counter/__reps/__subtitle/counter__subtitle.css);
+@import url(/blocks/counter/__reps/counter__reps.css);
+@import url(/blocks/btn-wrapper/btn-wrapper.css);
+@import url(/blocks/btn/btn.css);
+@import url(/blocks/reset/reset.css);
+
