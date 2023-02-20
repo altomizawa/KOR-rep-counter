@@ -1,5 +1,19 @@
 .WOD__type_SCALED{
     text-decoration: none;
-    color: rgba(0,0,0,0.2)
+    color:black;
+    position: relative;
 }
 
+.WOD__type_SCALED::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -0.25rem;
+    left: -1.5rem;
+    width: 32vw;
+    border-radius: 10vw;
+    background-color: black;
+    z-index: -1;
+    opacity: 0;
+}
