@@ -1,0 +1,8 @@
+.intro__bottom-wrapper{
+    position: absolute;
+    bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

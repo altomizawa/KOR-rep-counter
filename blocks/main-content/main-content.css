@@ -1,0 +1,15 @@
+/* @keyframes main-content-animation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+.main-content{
+    animation: main-content-animation 1s forwards;
+    animation-delay: 3s;
+} */

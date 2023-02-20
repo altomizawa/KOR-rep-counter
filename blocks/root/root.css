@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: whitesmoke; */
+    color: rgb(66, 66, 66);
 }
 
 h1{
@@ -30,7 +32,7 @@ h3{
     font-weight: 700;
     line-height: 1;
     font-size: 5rem;
-    color: #B11116;
+    color: orange;
 }
 
 h4{

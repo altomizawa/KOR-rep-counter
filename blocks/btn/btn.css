@@ -3,5 +3,11 @@
     justify-content: center;
     align-items: center;
     padding-top: 0.5rem;
-  
+    transition: 300ms;      
+}
+
+.btn:active{
+    background-color: orange;
+    color:white;
+    font-weight: 800;     
 }

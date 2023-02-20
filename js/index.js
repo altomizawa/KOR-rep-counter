@@ -1,6 +1,5 @@
 let totalReps = document.getElementById("total-reps")
 
-
 let finalReps = 0
 
 function oneLess() {
@@ -38,4 +37,8 @@ function reset() {
     totalReps.textContent = finalReps
 }
 
-
+// function showRx(){    
+//     let rxTitle = document.getElementsByClassName(¨.WOD__wrapper¨);
+//     // rxTitle.style.fontFamily=¨Times"
+//     console.log (rxTitle)
+// }

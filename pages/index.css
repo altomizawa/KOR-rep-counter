@@ -2,6 +2,19 @@
 @import url(/vendor/normalize.css);
 @import url(/blocks/root/root.css);
 
+/* ------------------MAIN CONTENT WRAPPER -------------------- */
+@import url(/blocks/main-content/main-content.css);
+
+
+
+/* ------------------INTRO SECTION-------------------- */
+@import url(/blocks/intro/intro.css);
+@import url(/blocks/intro/__logo/intro__logo.css);
+@import url(/blocks/intro/__bottom-wrapper/intro__bottom-wrapper.css);
+@import url(/blocks/intro/__author/intro__author.css);
+@import url(/blocks/CFG-logo/CFG-logo.css);
+
+
 /* ------------------HEADER-------------------- */
 @import url(/blocks/header/header.css);
 @import url(/blocks/logo/logo.css);

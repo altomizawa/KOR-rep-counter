@@ -1,0 +1,23 @@
+@keyframes intro-animation {
+    0% {
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(-100vh);
+    }
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: orangered;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    animation: intro-animation 500ms forwards;
+    animation-delay: 2s;
+}
