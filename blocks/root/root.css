@@ -1,3 +1,11 @@
+html{
+    height: -webkit-fill-available;
+}
+
+body{
+    height: webkit-fill-available;
+}
+
 *{
     margin: 0;
     padding: 0;
