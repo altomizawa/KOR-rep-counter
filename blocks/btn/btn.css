@@ -3,7 +3,9 @@
     justify-content: center;
     align-items: center;
     padding-top: 0.5rem;
-    transition: 300ms;      
+    transition: 300ms;  
+    font-weight: 700;    
+    font-size: 2rem;;
 }
 
 .btn:active{

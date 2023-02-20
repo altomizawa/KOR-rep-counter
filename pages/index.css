@@ -42,4 +42,6 @@
 @import url(../blocks/btn-wrapper/btn-wrapper.css);
 @import url(../blocks/btn/btn.css);
 @import url(../blocks/reset/reset.css);
+@import url(../blocks/btn-wrapper/__number-wrapper/btn-wrapper__number-wrapper.css);
+@import url(../blocks/btn-wrapper/__number/btn-wrapper__number.css);
 

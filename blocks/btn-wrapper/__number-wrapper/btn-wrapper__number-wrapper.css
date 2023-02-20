@@ -1,0 +1,6 @@
+.btn-wrapper__number-wrapper{
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}

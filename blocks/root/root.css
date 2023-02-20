@@ -50,15 +50,23 @@ h4{
     font-size: 1.3rem;
 }
 
+h5{
+    font-family: 'Varta', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.3rem;
+
+}
+
 button{
     font-family: 'Varta', sans-serif;
     font-weight: 200;
     line-height: 1.5;
     font-size: 1.3rem;
-    width: 23vw;
-    height: 12vw;
-    border-radius: 12px;
-    border: 1px solid rgba(0,0,0,0.22);
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 3px solid rgba(0,0,0,0.22);
     background-color: transparent;
     color: #787878;
 }

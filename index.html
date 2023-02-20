@@ -8,14 +8,14 @@
     <title>KOR Rep Counter</title>
 </head>
 <body>
-    <section class="intro">
+    <!-- <section class="intro">
         <img src="./images/CFGames-logo_white.png" alt="No Bull CrossFit Games 2023 logo" class="CFG-logo">
         <div class="intro__bottom-wrapper">
             <img src="./logos/KOR somente_white.png" alt="KOR CrossFit logo" class="intro__logo">
             <p class="intro__author">Al Tomizawa - 2023</p>
         </div>
+    </section> -->
 
-    </section>
     <div class="main-content">
         <header class="header">
             <img src="./logos/KOR somente_Red.svg" alt="KOR CrossFit logo" class="logo">
@@ -52,12 +52,22 @@
                 <h4 class="counter__subtitle">REPS</h4>
             </div>
             <div class="btn-wrapper">
-                <button id="one-less" onclick="oneLess()" class="btn">-1</button>
-                <button id="one-more" onclick="oneMore()" class="btn">+1</button>
-                <button id="five-less" onclick="fiveLess()" class="btn">-5</button>
-                <button id="five-more" onclick="fiveMore()" class="btn">+5</button>
-                <button id="ten-less" onclick="tenLess()" class="btn">-10</button>
-                <button id="ten-more" onclick="tenMore()" class="btn">+10</button>
+                <div class="btn-wrapper__number-wrapper">
+                    <button id="one-less" onclick="oneLess()" class="btn">-</button>
+                    <h5 class="btn-wrapper__number">1</h5>
+                    <button id="one-more" onclick="oneMore()" class="btn">+</button>
+                </div>
+                <div class="btn-wrapper__number-wrapper">
+                    <button id="five-less" onclick="fiveLess()" class="btn">-</button>
+                    <h5 class="btn-wrapper__number">5</h5>
+                    <button id="five-more" onclick="fiveMore()" class="btn">+</button>
+                </div>
+                <div class="btn-wrapper__number-wrapper">
+                    <button id="ten-less" onclick="tenLess()" class="btn">-</button>
+                    <h5 class="btn-wrapper__number">10</h5>
+                    <button id="ten-more" onclick="tenMore()" class="btn">+</button>
+                </div>
+               
             </div>
             <button onclick="reset()" class="reset">RESET</button>
         </section>
