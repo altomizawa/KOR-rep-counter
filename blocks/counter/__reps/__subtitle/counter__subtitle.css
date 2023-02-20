@@ -1,3 +1,4 @@
 .counter__subtitle{
     text-align: right;
+    transform: translateY(-0.8rem);
 }

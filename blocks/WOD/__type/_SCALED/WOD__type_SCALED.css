@@ -2,3 +2,8 @@
     text-decoration: underline;
     color: rgba(0,0,0,0.2)
 }
+
+.WOD__type_SCALED.WOD__type_SCALED:focus{
+    text-decoration: none;
+    color: rgba(0,0,0,1)
+}
