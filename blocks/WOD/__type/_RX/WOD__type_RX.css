@@ -1,5 +1,17 @@
 .WOD__type_RX{
-    text-decoration: underline;
-    color: rgba(0,0,0,1)
+    color: white;
+    position: relative;
+    text-decoration: none;
 }
-
+.WOD__type_RX:before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -0.25rem;
+    left: -1.5rem;
+    width: 20vw;
+    border-radius: 10vw;
+    background-color: black;
+    z-index: -1;
+}
