@@ -1,3 +1,8 @@
+:root{
+    --rx-button-color: hsl(16, 100%, 50%);
+    --scaled-button-color: hsl(16, 100%, 100%);
+}
+
 html{
     height: -webkit-fill-available;
 }

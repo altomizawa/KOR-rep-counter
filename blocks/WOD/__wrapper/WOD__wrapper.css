@@ -1,6 +1,6 @@
 .WOD__wrapper{
 display: flex;
-overflow: hidden;
 margin-block: 1rem;
-/* background-color: red; */
+position: relative;
+overflow: hidden;
 }

@@ -13,6 +13,6 @@
     top: -0.25rem;
     left: -1.5rem;
     border-radius: 10vw;
-    background-color: orangered;
+    background-color: var(--scaled-button-color);
     z-index: -1;
 }
