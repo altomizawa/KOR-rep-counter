@@ -40,25 +40,29 @@ function reset() {
 let catRxEl = document.getElementById("cat-rx-el")
 let catScaledEl = document.getElementById("cat-scaled-el")
 let rxDescriptionEl = document.getElementById("rx-description-el")
-console.log(rxDescriptionEl)
-
+let scaledDescriptionEl = document.getElementById("scaled-description-el")
+let wodWrapperEl = document.getElementById("wod-wrapper-el")
 function showRxWod() {
-    rxDescriptionEl.style.opacity = "1"
-    rxDescriptionEl.style.transitionDuration = "250ms"
     catRxEl.style.color = "white"
     catScaledEl.style.transitionDuration = "250ms"
     catScaledEl.style.color = "black"
     catScaledEl.style.setProperty("--scaled-button-color", "hsl(16, 100%, 100%)");
     catRxEl.style.transitionDuration = "250ms"
     catRxEl.style.setProperty("--rx-button-color", "hsl(16, 100%, 50%)");
+    rxDescriptionEl.style.transform = "translatex(0%)"
+    scaledDescriptionEl.style.transform = "translatex(0%)"
+
 }
 
 function showScaledWod(){
-    rxDescriptionEl.style.opacity = "1";
     catRxEl.style.color = "black"
     catRxEl.style.transitionDuration = "250ms"
     catScaledEl.style.color = "white"
     catScaledEl.style.setProperty("--scaled-button-color", "hsl(16, 100%, 50%)");
     catRxEl.style.setProperty("--rx-button-color", "hsl(16, 100%, 100%)");
+    rxDescriptionEl.style.transform = "translatex(-100%)"
+    scaledDescriptionEl.style.transform = "translatex(-100%)"
 
 }
+
+

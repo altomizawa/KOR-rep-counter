@@ -3,4 +3,5 @@ display: flex;
 margin-block: 1rem;
 position: relative;
 overflow: hidden;
+border: 2px orange solid;
 }
