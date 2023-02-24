@@ -1,7 +1,6 @@
 .WOD__description{
     min-width: 100%;
     transform: translatex(calc(0%));
-    border: solid 1px black;
     transition: 400ms ease-in-out;
 
 }
