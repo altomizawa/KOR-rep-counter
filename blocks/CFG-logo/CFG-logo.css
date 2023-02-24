@@ -1,5 +1,11 @@
 .CFG-logo{
-    width: 50vw;
+    width:12rem;
     background-color: transparent;
     transform: translateY(-2rem);
+}
+
+@media screen and (min-width: 426px) {
+    .CFG-logo{
+        width: 17rem;
+    }
 }

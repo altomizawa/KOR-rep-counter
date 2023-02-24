@@ -1,4 +1,11 @@
 .intro__logo{
-    width: 20VW;
+    width: 3rem;
     margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 426px) {
+    .intro__logo{
+        width: 5rem;
+    }
+    
 }
