@@ -42,13 +42,14 @@ let catScaledEl = document.getElementById("cat-scaled-el")
 let rxDescriptionEl = document.getElementById("rx-description-el")
 let scaledDescriptionEl = document.getElementById("scaled-description-el")
 let wodWrapperEl = document.getElementById("wod-wrapper-el")
+let selectorCircleEl = document.querySelector(".WOD__selector-circle")
+
 function showRxWod() {
     catRxEl.style.color = "white"
     catScaledEl.style.transitionDuration = "250ms"
     catScaledEl.style.color = "black"
-    catScaledEl.style.setProperty("--scaled-button-color", "hsl(16, 100%, 100%)");
-    catRxEl.style.transitionDuration = "250ms"
-    catRxEl.style.setProperty("--rx-button-color", "hsl(16, 100%, 50%)");
+    selectorCircleEl.style.transform="translateX(0px)";
+    selectorCircleEl.style.width="60px";
     rxDescriptionEl.style.transform = "translatex(0%)"
     scaledDescriptionEl.style.transform = "translatex(0%)"
 
@@ -58,11 +59,10 @@ function showScaledWod(){
     catRxEl.style.color = "black"
     catRxEl.style.transitionDuration = "250ms"
     catScaledEl.style.color = "white"
-    catScaledEl.style.setProperty("--scaled-button-color", "hsl(16, 100%, 50%)");
-    catRxEl.style.setProperty("--rx-button-color", "hsl(16, 100%, 100%)");
+    selectorCircleEl.style.transform="translateX(105px)";
+    selectorCircleEl.style.width="100px";
     rxDescriptionEl.style.transform = "translatex(-100%)"
     scaledDescriptionEl.style.transform = "translatex(-100%)"
-
 }
 
 

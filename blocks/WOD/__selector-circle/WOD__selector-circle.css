@@ -1,0 +1,10 @@
+.WOD__selector-circle{
+    width: 60px;
+    height:30px;
+    background-color: orangered;
+    position: absolute;
+    top:-12% ;
+    left: -15px;
+    border-radius: 30px;
+    transition: 400ms ease-in-out;
+}

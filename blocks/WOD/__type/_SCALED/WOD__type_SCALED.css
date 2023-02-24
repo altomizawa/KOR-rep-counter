@@ -2,17 +2,5 @@
     text-decoration: none;
     color:black;
     position: relative;
-}
-
-.WOD__type_SCALED::before{
-    content: '';
-    height: 100%;
-    width: 100%;
-    padding-inline: 1.5rem;
-    position: absolute;
-    top: -0.25rem;
-    left: -1.5rem;
-    border-radius: 10vw;
-    background-color: var(--scaled-button-color);
-    z-index: -1;
+    z-index: 2;
 }

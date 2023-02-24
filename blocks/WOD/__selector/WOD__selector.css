@@ -1,7 +1,8 @@
 .WOD__selector{
     display: flex;
-    column-gap: 4rem;
-    justify-content: center;
-    padding-top: 1rem;
-    /* position: relative; */
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    margin-inline: auto;
+    position: relative;
 }

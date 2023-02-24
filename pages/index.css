@@ -27,6 +27,7 @@
 @import url(../blocks/WOD/__description/_SCALED/WOD__description_SCALED.css);
 @import url(../blocks/WOD/__line/WOD__line.css);
 @import url(../blocks/WOD/__selector/WOD__selector.css);
+@import url(/blocks/WOD/__selector-circle/WOD__selector-circle.css);
 @import url(../blocks/WOD/__type/_RX/WOD__type_RX.css);
 @import url(../blocks/WOD/__type/_SCALED/WOD__type_SCALED.css);
 @import url(../blocks/WOD/__type/WOD__type.css);
