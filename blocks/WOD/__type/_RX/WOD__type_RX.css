@@ -7,10 +7,10 @@
     content: '';
     height: 100%;
     width: 100%;
+    padding-inline: 1.5rem;
     position: absolute;
     top: -0.25rem;
     left: -1.5rem;
-    width: 20vw;
     border-radius: 10vw;
     background-color: orangered;
     z-index: -1;

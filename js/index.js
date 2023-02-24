@@ -37,8 +37,5 @@ function reset() {
     totalReps.textContent = finalReps
 }
 
-// function showRx(){    
-//     let rxTitle = document.getElementsByClassName(¨.WOD__wrapper¨);
-//     // rxTitle.style.fontFamily=¨Times"
-//     console.log (rxTitle)
-// }
+let catRxEl = document.getElementById("cat-rx-el")
+let catScaledEl = document.getElementById("cat-scaled-el")
