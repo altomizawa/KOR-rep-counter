@@ -54,7 +54,7 @@ function showRxWod() {
 }
 
 function showScaledWod(){
-    rxDescriptionEl.style.opacity = "0";
+    rxDescriptionEl.style.opacity = "1";
     catRxEl.style.color = "black"
     catRxEl.style.transitionDuration = "250ms"
     catScaledEl.style.color = "white"
