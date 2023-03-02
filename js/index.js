@@ -2,10 +2,15 @@ let totalReps = document.getElementById("total-reps")
 
 let finalReps = 0
 
+
 function oneLess() {
     finalReps -= 1
     totalReps.textContent = finalReps
+    if (finalReps <= 0) {
+        reset()
+    }
 }
+
 
 function oneMore() {
     finalReps += 1
@@ -15,6 +20,9 @@ function oneMore() {
 function fiveLess() {
     finalReps -= 5
     totalReps.textContent = finalReps
+    if (finalReps <= 0) {
+        reset()
+    }
 }
 
 function fiveMore() {
@@ -25,6 +33,9 @@ function fiveMore() {
 function tenLess() {
     finalReps -= 10
     totalReps.textContent = finalReps
+    if (finalReps <= 0) {
+        reset()
+    }
 }
 
 function tenMore() {
@@ -64,5 +75,4 @@ function showScaledWod(){
     rxDescriptionEl.style.transform = "translatex(-100%)"
     scaledDescriptionEl.style.transform = "translatex(-100%)"
 }
-
 
